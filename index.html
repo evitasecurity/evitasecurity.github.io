@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/enl6bhi.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&amp;subset=cyrillic">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=082a9911-2331-436d-afa9-47ff09edd9a6&lang=ru_RU" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [43.09704613, 131.90074219],
+                zoom: 17,
+                controls: []
+            });
+            var myPlacemark = new ymaps.Placemark([43.09704613, 131.90074219]);
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="upper-header">
+        <div class="wrapper">
+            <img class="logo" src="img/logo.png" alt="ЭВИТА" width="202.3" height="200.3">
+            <h1 class="logo-text">Охранное агенство "Эвита"</h1>
+        </div>
+    </div>
+    <div class="down-header">
+        <div class="container wrapper">
+            <div class="flex-el"><i class="fas fa-phone-volume"></i>&nbsp;<p>+7 (953) 220-49-49</p></div>
+            <div class="flex-el"><i class="fas fa-map-marker-alt"></i>&nbsp;<p>690021, г. Владивосток, <br>ул. Липовая 7а, офис 303</p></div>
+            <div class="flex-el"><i class="fas fa-envelope"></i>&nbsp;<p>evitatrance@mail.ru</p></div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="container">
+            <div class="menu" id="menu">
+                <ul>
+                    <li class="menu-el"><a href="#about">О нас</a></li>
+                    <li class="menu-el"><a href="#services">Услуги</a></li>
+                    <li class="menu-el"><a href="#work">Вакансии</a></li>
+                    <li class="menu-el"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="navigations" id="nav">
+        <div class="container">
+            <div class="menu" id="menus">
+                <ul>
+                    <li class="menu-el"><a href="#about">О нас</a></li>
+                    <li class="menu-el"><a href="#services">Услуги</a></li>
+                    <li class="menu-el"><a href="#work">Вакансии</a></li>
+                    <li class="menu-el"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="about" id="about">
+        <h1 class="capture">о нас</h1>
+            <div class="text"><span>ООО Охранное Агентство «ЭВИТА»</span>,
+                <br>ИНН/2539092816 КПП 253701001 <br>
+
+                <br>Оказывает профессиональные охранные  услуги в городе Владивостоке и на территории Приморского края.
+                <br>Деятельность ООО Охранное Агентство «ЭВИТА» осуществляется в строгом соответствии законам РФ, в тесном взаимодействии с государственными структурами, органами обеспечения правопорядка.
+                <br>Охрана объектов наша специализация, одной из самых распространенных охранных услуг, является охрана стройплощадок и производственных баз.
+                <br>Организация пропускного режима: контроль прохода, перемещение транспорта и механизмов, вывоза / выноса ТМЦ.
+                <br>- Усиление защищенности объекта: укрепление забора, ворот, установка решеток на окнах нижнего этажа, организация складских помещений.
+                <br>- Организация патрулирования стройплощадки.
+                <br>- Контроль над соблюдением правил рабочего распорядка.
+                <br>- Организация хранения на открытых площадках и в складских помещениях. Ведение учета стройматериалов, инструментов и оборудования.
+                <br>- Организация оперативной связи: между сотрудниками безопасности, с администрацией агентства и руководством строительного предприятия.
+                <br>- Соблюдение противопожарных правил.
+                <br>- Организация взаимодействия с правоохранительными органами.
+                <br>К каждому клиенту у нас индивидуальный подход, конфиденциальность, взаимное доверие и   уважение, гибкая ценовая политика, своевременное и оперативное предоставление охранных услуг, надёжность и законность, гарантия возмещения ущерба являются приоритетом в  деятельности ООО Охранное Агентство «ЭВИТА»
+
+
+            </div>
+    </div>
+    <div class="services" id="services">
+        <h1 class="capture">услуги</h1>
+        <div class="text">
+            <div class="item">
+                <hr>Защита жизни и здоровья граждан;
+                <hr></div>
+            <div class="item">
+                <hr>Охрана объектов и(или) имущества, (в том числе при его транспортировке), находящихся в собственности, во владении, в пользовании, в хозяйственном ведении, оперативном управлении или доверительном управлении, за исключением объектов и(или) имущества, предусмотренного пунктом 7 части статьи 3 Закона Российской Федерации "О частной детективной и охранной деятельности в Российской Федерации";
+                <hr></div>
+            <div class="item">
+                <hr>Консультирование и подготовка рекомендаций клиентам по вопросам правомерной защиты от противоправных посягательств;
+                <hr></div>
+            <div class="item">
+                <hr>Обеспечение порядка в местах проведения массовых мероприятий;
+                <hr></div>
+            <div class="item">
+                <hr>Обеспечение внутриобъектового и пропускного режима на объектах, за исключением объектов, предусмотренных пунктом 7 части 3 статьи 3 Закона Российской Федерации "О частной детективной и охранной деятельности в Российской Федерации"
+                <hr></div>
+
+
+        </div>
+    </div>
+    <div class="work" id="work">
+        <h1 class="capture">вакансии</h1>
+        <div class="text">
+            <span>Требуются охранники на постоянную работу.</span> <br>
+            <span>Требования:</span> <br>
+            <hr>Ответственное отношение к работе
+            <hr>Аккуратность
+            <hr>Честность
+            <hr>Наличие удостоверения частного охранника
+            <hr>
+        </div>
+    </div>
+    <div class="contacts" id="contacts">
+        <h1 class="capture">контакты</h1>
+        <div class="row">
+            <div class="col-12 col-md-4 info" style="height: 400px; margin-bottom: 30px;">
+                <div class="address item"><h4>Адресс</h4><p>690021, г. Владивосток, ул. Липовая 7а, офис 303</p></div>
+                <div class="phone item"><h4>Номер телефона</h4><p>+7 (953) 220-49-49</p></div>
+                <div class="email item"><h4>Электронная почта</h4><p>evitatrance@mail.ru</p></div>
+            </div>
+            <div id="map" class="col-12 col-md-8" style="height: 400px"></div>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>© Все права защищены <span>Охранное агенство "Эвита"</span></p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#menu").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top-200;
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+        $("#menus").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top-200;
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+        $("#slide-menu").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top-200;
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+        jQuery(function(f){
+            var element = f('#nav');
+            f(window).scroll(function(){
+                element['fade'+ (f(this).scrollTop() > 300 ? 'In': 'Out')](200);
+            });
+        });
+        $(".bars").click(function (e) {
+           e.preventDefault();
+           $('.slide-menu').fadeIn('fast');
+        });
+        $('.slide-menu').click(function () {
+            $('.slide-menu').fadeOut('fast');
+        });
+    });
+</script>
+</body>
+</html>
